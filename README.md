@@ -1,6 +1,6 @@
 # pybaseline
 
-**pybaseline** is a Python GUI tool for visualizing and correcting the baseline of SWV (Square Wave Voltammetry) data files. It provides interactive baseline correction using the asPLS algorithm and allows users to analyze and visualize their data easily.
+**pybaseline** is a graphical Python application for batch processing and baseline correction of SWV (Square Wave Voltammetry) data files. It provides a user-friendly interface to select input folders, configure data import options, and export processed results and plots.
 
 ## Features
 
@@ -10,6 +10,7 @@
 - Peak detection with margin and slope filtering.
 - Interactive matplotlib-based plotting embedded in a Tkinter GUI.
 - Simple and user-friendly interface.
+- Cross-platform GUI (Windows, macOS, Linux).
 
 ## Requirements
 
@@ -63,9 +64,7 @@ If the plot does not appear, check that your file format matches the expected st
 
 ## License
 
-This project is licensed under the MIT License. 
+MIT License. See [LICENCE](LICENCE) for details.
 
-See [LICENCE](LICENCE) for details.
-
-#
-*This tool uses the asPLS algorithm from pybaselines.*
+**Note:**  
+This application uses the asPLS algorithm from [pybaselines](https://github.com/derb12/pybaselines) for baseline correction.
