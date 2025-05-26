@@ -56,7 +56,11 @@ The first row is skipped (assumed to be a header). Only the first two columns ar
 If you get an error about missing modules, ensure all dependencies are installed.
 If the plot does not appear, check that your file format matches the expected structure.
 
-### License
-MIT License
+## License
 
-***This tool uses the asPLS algorithm from pybaselines.***
+This project is licensed under the MIT License. 
+
+See [LICENCE](LICENCE) for details.
+
+#
+*This tool uses the asPLS algorithm from pybaselines.*
