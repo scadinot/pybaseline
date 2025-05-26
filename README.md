@@ -13,13 +13,14 @@
 
 ## Requirements
 
-- Python 3.7+
-- numpy
-- pandas
-- matplotlib
-- scipy
-- pybaselines
-- tkinter (usually included with Python)
+- Python 3.8+
+- [numpy](https://numpy.org/)
+- [pandas](https://pandas.pydata.org/)
+- [matplotlib](https://matplotlib.org/)
+- [pybaselines](https://pybaselines.readthedocs.io/)
+- [scipy](https://scipy.org/)
+- [openpyxl](https://openpyxl.readthedocs.io/)
+- [tkinter](https://docs.python.org/3/library/tkinter.html) (usually included with Python)
 
 ### Install dependencies with:
 
@@ -29,6 +30,10 @@ pip install numpy pandas matplotlib scipy pybaselines
 
 ## Usage
 Run the application:
+
+   ```sh
+   python pybaseline.py
+   ```
 
 In the GUI:
 
